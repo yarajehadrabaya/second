@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-    <label for="foodSearch">Search for a Food:</label>
+    <label for="foodSearch">Search food:</label>
     <input type="text" id="foodSearch" placeholder="Enter food name...">
     <button id="searchButton">Search</button>
 
@@ -82,7 +82,7 @@
                     <p>Publisher: ${foodInfo.publisher}</p>
                     <p>Recipe ID: ${foodInfo.recipe_id}</p>
                     <img src="${foodInfo.image_url}" alt="${foodName}">
-                    <p><a href="${foodInfo.source_url}" target="_blank">Source Link</a></p>
+                    <p><a href="${foodInfo.source_url}></a></p>
                 `;
                 outputDiv.innerHTML = html;
             } else {
